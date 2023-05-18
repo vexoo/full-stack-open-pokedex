@@ -10,7 +10,7 @@ app.get('/version', (_req, res) => {
   res.send('1')
 })
 
-app.get('/health', (req, res) => {
+app.get('/health', (_req, res) => {
   res.send('ok')
 })
 
